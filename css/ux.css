@@ -1,0 +1,112 @@
+@font-face{
+    src: url(../css/font/Exo-ExtraLight.ttf);
+    font-family: "Exo-ExtraLight";
+}
+
+@font-face{
+    src: url(../css/font/Exo-Regular.ttf);
+    font-family: "Exo-Regular";
+}
+
+*{box-sizing: border-box;}
+
+body{
+    background-image: url(imagenes/Fondo.jpg);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+nav{
+    height: 93px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #FAFAFA;
+    border-bottom: 2px solid rgb(107, 107, 107);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav h1{
+    color: #0B1C54;
+    font-family: Exo-Regular;
+    font-size: 40px;
+    margin-left: 10%;
+    text-align: left;
+    
+}
+
+nav ul{
+    color: #0B1C54;
+    font-family: Exo-ExtraLight;
+    font-size: 20px;
+    margin-right: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+    color: #0B1C54;
+}
+
+.nav-option{
+    margin-left: 35px;
+}
+
+main{
+    padding-top: 93px;
+    width: 80%;
+    max-width: 1000;
+    margin: 0 auto;
+}
+
+p{
+    font-family: Exo-ExtraLight; 
+    font-size: 19px;
+    
+}
+.hero{
+    height: 200px;
+    padding-top: 100px;
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.proyect1{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*.proyect1 :last-child{
+    margin-bottom: 200px; 
+}*/
+
+img{
+    width: 45%;
+    max-width: 490;
+    border-radius: 8px;
+}
+.text-proyect{
+    width: 45%;
+    max-width: 490;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-family: Exo-Regular;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}

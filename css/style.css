@@ -1,0 +1,132 @@
+@font-face{
+    src: url(../css/font/Exo-ExtraLight.ttf);
+    font-family: "Exo-ExtraLight";
+}
+
+@font-face{
+    src: url(../css/font/Exo-Regular.ttf);
+    font-family: "Exo-Regular";
+}
+*{box-sizing: border-box;}
+
+body{
+    background-image: url(../css/imagenes/Fondoportfolio.jpg);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+nav{
+    height: 93px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #FAFAFA;
+    border-bottom: 2px solid rgb(107, 107, 107);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav h1{
+    color: #0B1C54;
+    font-family: Exo-Regular;
+    font-size: 40px;
+    margin-left: 10%;
+    text-align: left;
+    
+}
+
+nav ul{
+    color: #0B1C54;
+    font-family: Exo-ExtraLight;
+    font-size: 20px;
+    margin-right: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+    color: #0B1C54;
+}
+/*nav ul li {...}*/
+.nav-option{
+    margin-left: 35px;
+}
+
+.align{
+    display: flex;
+    flex-direction: column;
+}
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pAlone{
+    font-family: Exo-ExtraLight; 
+    width: 50%; 
+    max-width: 490;
+    font-size: 19px;
+}
+
+.pWithImg{
+    font-family: Exo-ExtraLight; 
+    width: 75%; 
+    max-width: 490;
+    font-size: 19px;
+
+}
+
+.columnLeftImg {
+    height: 100%;
+    margin-top: 200px;
+    margin-left: 10%;
+    align-content: flex-end;
+}
+
+.columnLeftImg h4{
+    margin-top: 200px;
+}
+
+
+img{
+    width: 35%;
+    max-width: 490;
+    border-radius: 8px;
+}
+
+.alignLeft{
+    margin-top: 200px;
+    margin-left: 10%;
+}
+
+h4{
+    font-family: Exo-ExtraLight;  
+    font-size: 17px;
+}
+
+.alignRight{
+    text-align: right;
+    margin-top: 200px;
+    margin-right: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+.alignRight1{
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 10%;
+}
+
+div .alignLeft1{
+    padding-bottom: 200px;
+    margin-top: 200px;
+    margin-left: 10%;
+}
+.special{
+    margin-top: 100px
+}
